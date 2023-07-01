@@ -8,6 +8,18 @@ a = 6378137.0
 b = 6356752.3141 
 
 def xyz2blh(x,y,z):
+     """
+    Converts Cartesian coordinates (x, y, z) to ellipsoidal coordinates (latitude, longitude, height)
+    using the GRS80 ellipsoid model.
+    
+    Parameters:
+    - x: The X coordinate in the Cartesian system.
+    - y: The Y coordinate in the Cartesian system.
+    - z: The Z coordinate in the Cartesian system.
+    
+    Returns:
+    A tuple (latitude, longitude, height) representing the ellipsoidal coordinates in degrees.
+    """
      
     #Eccentricity
     e = math.sqrt(1-(b**2)/(a**2))
