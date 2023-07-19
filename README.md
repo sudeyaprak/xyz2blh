@@ -2,6 +2,8 @@
 
 ### Cartesian coordinates (𝑥, 𝑦, 𝑧) to ellipsoidal coordinates (𝜑, 𝜆, ℎ)
 
+<img width="700" alt="image" src="https://github.com/sudeyaprak/xyz2blh/assets/119863892/2f02fbe2-8d59-45bd-a8c7-6fce57cb17e5">
+
 The code performs a coordinate conversion from Cartesian coordinates to ellipsoidal coordinates using the GRS80 ellipsoid model. Here's a description of the code and its purpose:
 
 1. User Input:
